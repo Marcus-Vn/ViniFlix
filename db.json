@@ -2,7 +2,7 @@
     "categorias": [
       {
         "id": 1,
-        "titulo": "Jogos",
+        "titulo": "Jogos Indie",
         "cor": "#6BD1FF",
         "link_extra": {
           "text": "Gameplays",
@@ -46,44 +46,44 @@
       {
         "id": 1,
         "categoriaId": 1,
-        "titulo": "Minecraft com Franklin",
-        "url": "https://www.youtube.com/watch?v=OXaxAoyVXtI"
+        "titulo": "Celeste",
+        "url": "https://www.youtube.com/watch?v=70d9irlxiB4"
       },
       {
         "id": 2,
         "categoriaId": 1,
-        "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+        "titulo": "Hollow Knight",
+        "url": "https://www.youtube.com/watch?v=UAO2urG23S4"
       },
       {
         "id": 3,
         "categoriaId": 1,
-        "titulo": "Componentização com VanillaJS #AluraMais",
-        "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+        "titulo": "Stardew Valley",
+        "url": "https://www.youtube.com/watch?v=ot7uXNQskhs"
       },
       {
         "id": 4,
         "categoriaId": 1,
-        "titulo": "Pare de chutar e aprenda a display: inline #01",
-        "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+        "titulo": "Undertale",
+        "url": "https://www.youtube.com/watch?v=1Hojv0m3TqA"
       },
       {
         "id": 5,
         "categoriaId": 1,
-        "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-        "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+        "titulo": "Ori and the Blind Forest",
+        "url": "https://www.youtube.com/watch?v=cklw-Yu3moE"
       },
       {
         "id": 6,
         "categoriaId": 1,
-        "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-        "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+        "titulo": "Dead Cells",
+        "url": "https://www.youtube.com/watch?v=RvGaSPTcTxc"
       },
       {
         "id": 7,
         "categoriaId": 1,
-        "titulo": "Novidades do Angular v9",
-        "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+        "titulo": "CupHead",
+        "url": "https://www.youtube.com/watch?v=NN-9SQXoi50"
       },
       {
         "id": 8,

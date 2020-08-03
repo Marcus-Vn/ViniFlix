@@ -1,191 +1,269 @@
 {
-    "categorias": [
-      {
-        "id": 1,
-        "titulo": "Jogos Indie",
-        "cor": "#6BD1FF",
-        "link_extra": {
-          "text": "Gameplays",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
-      },
-      {
-        "id": 2,
-        "titulo": "Back End",
-        "cor": "#00C86F",
-        "link_extra": {
-          "text": "Cursos de Back End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-programacao"
-        }
-      },
-      {
-        "id": 3,
-        "titulo": "Data Science e Inteligência Artificial",
-        "cor": "#9cd33b",
-        "link_extra": {
-          "text": "Cursos de Data Science na Alura",
-          "url": "https://www.alura.com.br/cursos-online-mobile"
-        }
-      },
-      {
-        "id": 4,
-        "titulo": "Filmes",
-        "cor": "orange"
-      },
-      {
-        "id": 5,
-        "titulo": "Games",
-        "cor": "red",
-        "link_extra": {
-          "text": "Formação de Jogos na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
-        }
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Jogos Indie",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Indicações de Indies",
+        "url": "https://www.youtube.com/watch?v=LxaiHxGd-og"
       }
-    ],
-    "videos": [
-      {
-        "id": 1,
-        "categoriaId": 1,
-        "titulo": "Celeste",
-        "url": "https://www.youtube.com/watch?v=70d9irlxiB4"
-      },
-      {
-        "id": 2,
-        "categoriaId": 1,
-        "titulo": "Hollow Knight",
-        "url": "https://www.youtube.com/watch?v=UAO2urG23S4"
-      },
-      {
-        "id": 3,
-        "categoriaId": 1,
-        "titulo": "Stardew Valley",
-        "url": "https://www.youtube.com/watch?v=ot7uXNQskhs"
-      },
-      {
-        "id": 4,
-        "categoriaId": 1,
-        "titulo": "Undertale",
-        "url": "https://www.youtube.com/watch?v=1Hojv0m3TqA"
-      },
-      {
-        "id": 5,
-        "categoriaId": 1,
-        "titulo": "Ori and the Blind Forest",
-        "url": "https://www.youtube.com/watch?v=cklw-Yu3moE"
-      },
-      {
-        "id": 6,
-        "categoriaId": 1,
-        "titulo": "Dead Cells",
-        "url": "https://www.youtube.com/watch?v=RvGaSPTcTxc"
-      },
-      {
-        "id": 7,
-        "categoriaId": 1,
-        "titulo": "CupHead",
-        "url": "https://www.youtube.com/watch?v=NN-9SQXoi50"
-      },
-      {
-        "id": 8,
-        "categoriaId": 2,
-        "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-        "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
-      },
-      {
-        "id": 9,
-        "categoriaId": 2,
-        "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-        "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
-      },
-      {
-        "id": 10,
-        "categoriaId": 2,
-        "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-        "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
-      },
-      {
-        "id": 11,
-        "categoriaId": 2,
-        "titulo": "API: Dicionário do Programador",
-        "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
-      },
-      {
-        "id": 12,
-        "categoriaId": 2,
-        "titulo": "Usando Git Direito",
-        "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
-      },
-      {
-        "id": 13,
-        "categoriaId": 3,
-        "titulo": "Teste de Turing",
-        "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
-      },
-      {
-        "id": 14,
-        "categoriaId": 3,
-        "titulo": "O que é Data Science?",
-        "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
-      },
-      {
-        "id": 15,
-        "categoriaId": 3,
-        "titulo": "Melhor forma de aprender Python",
-        "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
-      },
-      {
-        "id": 16,
-        "categoriaId": 3,
-        "titulo": "Como ingressar no mercado de Data Science?",
-        "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
-      },
-      {
-        "id": 17,
-        "categoriaId": 4,
-        "titulo": "Interestellar",
-        "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-      },
-      {
-        "id": 18,
-        "categoriaId": 4,
-        "titulo": "Gattaca",
-        "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-      },
-      {
-        "id": 19,
-        "categoriaId": 4,
-        "titulo": "A Chegada",
-        "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-      },
-      {
-        "id": 20,
-        "categoriaId": 4,
-        "titulo": "Feitiço do Tempo",
-        "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-      },
-      {
-        "id": 21,
-        "categoriaId": 5,
-        "titulo": "Final Fantasy 7",
-        "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
-      },
-      {
-        "id": 22,
-        "categoriaId": 5,
-        "titulo": "Assassins Creed Valhalla",
-        "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
-      },
-      {
-        "id": 23,
-        "categoriaId": 5,
-        "titulo": "God of War 4",
-        "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-      },
-      {
-        "id": 24,
-        "categoriaId": 5,
-        "titulo": "Resident Evil 8",
-        "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+    },
+    {
+      "id": 2,
+      "titulo": "Jogos Nacionais",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Excelentes Jogos Nacionais",
+        "url": "https://www.youtube.com/watch?v=fHckZw-GRqQ&t=26s"
       }
-    ]
-  }
+    },
+    {
+      "id": 3,
+      "titulo": "Dicas para GameDev",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Cursos de Jogos da Alura",
+        "url": "https://www.alura.com.br/cursos-online-programacao/jogos"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Pixel Art",
+      "cor": "orange"
+    },
+    {
+      "id": 5,
+      "titulo": "Programação",
+      "cor": "red",
+      "link_extra": {
+        "text": "Cursos de Programação da Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Como funcionam os Jogos?",
+      "url": "https://www.youtube.com/watch?v=Tz_IOs1XgP0"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Hollow Knight",
+      "url": "https://www.youtube.com/watch?v=UAO2urG23S4"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Celeste",
+      "url": "https://www.youtube.com/watch?v=70d9irlxiB4"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Undertale",
+      "url": "https://www.youtube.com/watch?v=1Hojv0m3TqA"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Ori and the Blind Forest",
+      "url": "https://www.youtube.com/watch?v=cklw-Yu3moE"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Dead Cells",
+      "url": "https://www.youtube.com/watch?v=RvGaSPTcTxc"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "CupHead",
+      "url": "https://www.youtube.com/watch?v=NN-9SQXoi50"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Stardew Valley",
+      "url": "https://www.youtube.com/watch?v=ot7uXNQskhs"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Crossing Souls",
+      "url": "https://www.youtube.com/watch?v=NLUro1MRvNA"
+    },
+    {
+      "id": 10,
+      "categoriaId": 1,
+      "titulo": "Iconoclasts",
+      "url": "https://www.youtube.com/watch?v=FnUN19xGIzU"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "A lenda do herói",
+      "url": "https://www.youtube.com/watch?v=4VgRzOu-VU0"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Dandara",
+      "url": "https://www.youtube.com/watch?v=vabfaRJoatU"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Chroma Squad",
+      "url": "https://www.youtube.com/watch?v=K8rzGA1Y57k"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "Horizon Chase",
+      "url": "https://www.youtube.com/watch?v=mNAbuuF84Rc"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "Sword Legacy Omen",
+      "url": "https://www.youtube.com/watch?v=pGBAk13sMBk"
+    },
+    {
+      "id": 16,
+      "categoriaId": 2,
+      "titulo": "Knights of Pen & Paper",
+      "url": "https://www.youtube.com/watch?v=o_0q5X9dZ7s"
+    },
+    {
+      "id": 17,
+      "categoriaId": 2,
+      "titulo": "Aritana e a pena da Harpia",
+      "url": "https://www.youtube.com/watch?v=vw3YiGNTNzQ"
+    },
+    {
+      "id": 18,
+      "categoriaId": 2,
+      "titulo": "SkyRacket",
+      "url": "https://www.youtube.com/watch?v=MmgMqRfKKe8"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "GameBrodis",
+      "url": "https://www.youtube.com/watch?v=vUEQ1wFDQI4"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Gemaplys",
+      "url": "https://www.youtube.com/watch?v=kifRj1vAB_w"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "Castro Brothers",
+      "url": "https://www.youtube.com/watch?v=G-lFcelPOPE"
+    },
+    {
+      "id": 22,
+      "categoriaId": 3,
+      "titulo": "Ferramentas gratuitas para GameDev",
+      "url": "https://www.youtube.com/watch?v=ung_U17kxDI&t=122s"
+    },
+    {
+      "id": 23,
+      "categoriaId": 3,
+      "titulo": "Davifo e Sharpax",
+      "url": "https://www.youtube.com/watch?v=l2L9Tvk06Xo"
+    },
+    {
+      "id": 24,
+      "categoriaId": 3,
+      "titulo": "Alura",
+      "url": "https://www.youtube.com/watch?v=lCqwMEynSgs"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "Dicas Crie seus jogos",
+      "url": "https://www.youtube.com/watch?v=3G8jpTduUlU&t=44s"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "Pixel Art para Iniciantes",
+      "url": "https://www.youtube.com/watch?v=gyUaG3-0elY&t=158s"
+    },
+    {
+      "id": 27,
+      "categoriaId": 4,
+      "titulo": "Dicas GameBrodis",
+      "url": "https://www.youtube.com/watch?v=bldOqEj3AAg"
+    },
+    {
+      "id": 28,
+      "categoriaId": 4,
+      "titulo": "Usando Photoshop para Pixel Art",
+      "url": "https://www.youtube.com/watch?v=kj0lKT7_ZLk"
+    },
+    {
+      "id": 29,
+      "categoriaId": 4,
+      "titulo": "Programas para Pixel Art",
+      "url": "https://www.youtube.com/watch?v=90BghUX7SD0&t=422s"
+    },
+    {
+      "id": 30,
+      "categoriaId": 4,
+      "titulo": "Dicas Pixel Art",
+      "url": "https://www.youtube.com/watch?v=cWKhytYUGTg"
+    },
+    {
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Começar a programar",
+      "url": "https://www.youtube.com/watch?v=nLPssMXOExM"
+    },
+    {
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "DevSoutinho Flappy Bird",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c&t=6s"
+    },
+    {
+      "id": 32,
+      "categoriaId": 5,
+      "titulo": "Dicas de React por Marco Bruno",
+      "url": "https://www.youtube.com/watch?v=C80sX3uS5oA"
+    },
+    {
+      "id": 33,
+      "categoriaId": 5,
+      "titulo": "Plataformas para games",
+      "url": "https://www.youtube.com/watch?v=NQMQWwUkLQs"
+    },
+    {
+      "id": 34,
+      "categoriaId": 5,
+      "titulo": "Lógica de Programação",
+      "url": "https://www.youtube.com/watch?v=JaTf3dhx464"
+    },
+    {
+      "id": 35,
+      "categoriaId": 5,
+      "titulo": "Curso de Python",
+      "url": "https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0"
+    },
+    {
+      "id": 36,
+      "categoriaId": 5,
+      "titulo": "Programação de Jogos",
+      "url": "https://www.youtube.com/watch?v=sIwoTbWfYho&list=PLgTmU6kuSLtzpYOPdk7o0wjwioYqwVibE"
+    }
+  ]
+}

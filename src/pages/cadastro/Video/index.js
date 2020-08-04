@@ -43,7 +43,7 @@ function CadastroVideo() {
         })
           .then(() => {
             // eslint-disable-next-line no-alert
-            alert('Só o desenvolvedor tem essa permisão por enquanto! Estamos trabalhando em perfis... :)');
+            alert('Só o Desenvolvedor tem essa permissão por enquanto! Estamos trabalhando em perfis... ;)');
             history.push('/');
           });
       }}

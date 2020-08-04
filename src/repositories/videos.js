@@ -2,13 +2,13 @@ import config from '../config';
 
 const URL_VIDEOS = `${config.URL_BACKEND_TOP}/videos`;
 
-function create(objetoDoVideo) {
+function create() {
   return fetch(`${URL_VIDEOS}?_embed=videos`, {
-    method: 'POST',
+    /* method: 'POST',
     headers: {
       'Content-type': 'application/json',
     },
-    body: JSON.stringify(objetoDoVideo),
+    body: JSON.stringify(objetoDoVideo), */
   })
     .then(async (respostaDoServidor) => {
       if (respostaDoServidor.ok) {

@@ -1,15 +1,14 @@
-import React from "react";
-import PropTypes from "prop-types";
-import VideoIframeResponsive from "./components/VideoIframeResponsive";
-import { BannerMainContainer, ContentAreaContainer, WatchButton } from "./styles";
+import React from 'react';
+import PropTypes from 'prop-types';
+import VideoIframeResponsive from './components/VideoIframeResponsive';
+import { BannerMainContainer, ContentAreaContainer, WatchButton } from './styles';
 
 // Função para extrair ID do YouTube
 function getYouTubeId(youtubeURL) {
-  return youtubeURL
-    .replace(
-      /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
-      "$7"
-    );
+  return youtubeURL.replace(
+    /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/,
+    '$7',
+  );
 }
 
 export default function BannerMain({ videoTitle, videoDescription, url }) {

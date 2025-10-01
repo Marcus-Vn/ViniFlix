@@ -5,10 +5,7 @@ import VideoCard from "./components/VideoCard";
 import Slider, { SliderItem } from "./components/Slider";
 
 function Carousel({ ignoreFirstVideo, category }) {
-  const categoryTitle = category.titulo;
-  const categoryColor = category.cor;
-  const categoryExtraLink = category.link_extra;
-  const videos = category.videos;
+  const { titulo: categoryTitle, cor: categoryColor, link_extra: categoryExtraLink, videos } = category;
 
   return (
     <VideoCardGroupContainer>
@@ -27,9 +24,7 @@ function Carousel({ ignoreFirstVideo, category }) {
 
       <Slider>
         {videos.map((video, index) => {
-          if (ignoreFirstVideo && index === 0) {
-            return null;
-          }
+          if (ignoreFirstVideo && index === 0) return null;
 
           return (
             <SliderItem key={video.titulo}>
@@ -46,7 +41,6 @@ function Carousel({ ignoreFirstVideo, category }) {
   );
 }
 
-// Declarando PropTypes para o Carousel
 Carousel.propTypes = {
   ignoreFirstVideo: PropTypes.bool,
   category: PropTypes.shape({
